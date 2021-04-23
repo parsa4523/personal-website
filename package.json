@@ -1,0 +1,22 @@
+{
+	"name": "personalwebsite",
+	"version": "1.0.0",
+	"description": "my first personal website template",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"build": "parcel build src/index.html --no-cache --no-source-maps --no-content-hash --no-minify --public-url ./ ",
+		"help": "parcel help build"
+	},
+	"author": "parsa4523",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"sass": "^1.27.0"
+	},
+	"dependencies": {
+		"aos": "^3.0.0-beta.6",
+		"bulma": "^0.9.1",
+		"feather-icons": "^4.28.0"
+	}
+}

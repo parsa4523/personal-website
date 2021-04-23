@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.scss" />
+		<title>parsa4523</title>
+	</head>
+	<body>
+		<!----------------------------------------   Start of NavBar   ---------------------------------------->
+		<header class="section-header">
+			<nav class="navbar m-2" role="navigation" aria-label="main navigation">
+				<div class="navbar-brand">
+					<a class="navbar-item" href="#">
+						<img src="./images/logo.svg" height="80" />
+					</a>
+
+					<a
+						role="button"
+						class="navbar-burger burger"
+						aria-label="menu"
+						aria-expanded="false"
+						data-target="navbar"
+					>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+
+				<div id="navbar" class="navbar-menu">
+					<div class="navbar-end">
+						<a class="navbar-item mx-3" data-section="header">Me</a>
+						<a class="navbar-item mx-3" data-section="resume">Resume</a>
+						<a class="navbar-item mx-3" data-section="projects">Projects</a>
+						<a class="navbar-item mx-3" data-section="contact">Contact Me</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!----------------------------------------   End of Navbar   ---------------------------------------->
+		<section class="hero pb-5 section-me">
+			<div class="hero-body">
+				<div
+					class="container is-flex is-align-items-center is-flex-direction-column is-max-widescreen"
+				>
+					<figure
+						class="image is-128x128 mb-2 intro intro__img"
+						data-aos="fade-down"
+					>
+						<img class="is-rounded" src="./images/me.jpg" />
+					</figure>
+					<p class="mb-2 title is-4 intro intro__me" data-aos="fade-down">
+						Hi, I'm Parsa Zargar
+						<img
+							src="images/hand.png"
+							width="24px"
+							style="vertical-align: bottom"
+						/>
+					</p>
+					<h1
+						class="title is-1 has-text-black has-text-weight-bold has-text-centered mb-2 intro intro__main"
+						data-aos="fade-up"
+						style="max-width: 40rem"
+					>
+						Building And Designing Front Side of Digital Products
+					</h1>
+					<p
+						class="has-text-centered mb-2 intro intro__desc"
+						style="max-width: 20rem"
+						data-aos="fade-up"
+					>
+						Front-End Developer intrested in Design and Coding. specialize in
+						Responsive Web Design, React.js and Design Principles.
+					</p>
+					<button
+						class="button is-black is-medium is-rounded is-large mb-3 intro intro__btn"
+						data-aos="fade"
+						data-aos-delay="400"
+						data-aos-duration="1000"
+					>
+						Contact Me
+					</button>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="columns is-multiline">
+					<!----------------------------   Start of Skill Card   ---------------------------->
+					<div class="column is-full skill-card" data-aos="fade-right">
+						<div class="columns is-gapless h-100 is-vcentered">
+							<div class="column has-text-black is-flex-direction-column">
+								<div class="skill-card__text-box skill-card__text-box--left">
+									<i
+										class="bx bx-mobile-alt skill-card__icon"
+										style="background-color: #f9d9b3"
+									></i>
+									<h3 class="title is-3 skill-card__title">
+										Responsive Web Pages
+									</h3>
+									<p style="max-width: 30rem">
+										I design and implement responsive websites and web
+										application. with strong focus on best practices.
+									</p>
+								</div>
+							</div>
+							<div
+								class="column is-half is-two-thirds-desktop is-hidden-mobile skill-card__right"
+							>
+								<figure class="image" style="height: 100%">
+									<img
+										src="./images/browser.svg"
+										alt=""
+										style="position: absolute; top: 0; left: 6rem; height: 180%"
+									/>
+								</figure>
+							</div>
+						</div>
+					</div>
+					<!----------------------------   End of Skill Card   ---------------------------->
+					<!----------------------------   Start of Skill Card   ---------------------------->
+
+					<div
+						class="column is-full skill-card"
+						data-aos="fade-left"
+						style="background-color: #f5f9fa"
+					>
+						<div class="columns is-gapless h-100 is-vcentered">
+							<div
+								class="column is-half is-two-thirds-desktop is-hidden-mobile skill-card__right"
+							>
+								<figure class="image" style="height: 100%">
+									<img
+										src="./images/Group.svg"
+										alt=""
+										style="position: absolute; top: -10rem; height: 180%"
+									/>
+								</figure>
+							</div>
+
+							<div class="column has-text-black is-flex-direction-column">
+								<div class="skill-card__text-box skill-card__text-box--right">
+									<i
+										class="bx bx-category-alt skill-card__icon"
+										style="background-color: #d7f2f9"
+									></i>
+									<h3 class="title is-3 skill-card__title">
+										Single Page Applications
+									</h3>
+									<p style="max-width: 30rem">
+										I create Single Page Applications using React.js that also
+										support SSR to improve SEO of your webpage.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!----------------------------   End of Skill Card   ---------------------------->
+					<!----------------------------   Start of Skill Card   ---------------------------->
+					<div
+						class="column is-full skill-card"
+						data-aos="fade-right"
+						style="background-color: #f6f7fc"
+					>
+						<div class="columns is-gapless h-100 is-vcentered">
+							<div class="column has-text-black is-flex-direction-column">
+								<div class="skill-card__text-box skill-card__text-box--left">
+									<i
+										class="bx bxl-wordpress skill-card__icon"
+										style="background-color: #d6e1ff"
+									></i>
+									<h3 class="title is-3 skill-card__title">Wordpress</h3>
+									<p style="max-width: 30rem">
+										I can create and customize wordpress websites. I can design
+										and create your custom theme as well.
+									</p>
+								</div>
+							</div>
+							<div
+								class="column is-half is-two-thirds-desktop is-hidden-mobile skill-card__right"
+							>
+								<figure class="image" style="height: 100%">
+									<img
+										src="./images/Wordpress-Logo.svg"
+										alt=""
+										style="position: absolute; top: -10%; height: 120%"
+									/>
+								</figure>
+							</div>
+						</div>
+					</div>
+					<!----------------------------   End of Skill Card   ---------------------------->
+				</div>
+			</div>
+		</section>
+		<!----------------------------------------   Start of Section Resume   ---------------------------------------->
+		<section class="section section-resume" data-aos="fade-up">
+			<div class="container">
+				<h3 class="title is-2 mb-5">Resume</h3>
+				<div class="columns is-multiline">
+					<div class="column is-half mb-3">
+						<h4 class="title is-3">Skills</h4>
+						<ul class="list skill-list">
+							<li>Front-End Development</li>
+							<li>Responsive Web Design</li>
+							<li>Single Page Application</li>
+							<li>Cross Platform Mobile Development</li>
+							<li>Digital Product Design</li>
+							<li>No Code Solutions</li>
+						</ul>
+					</div>
+					<div class="column is-half mb-3">
+						<h4 class="title is-3">Courses</h4>
+						<ul class="list">
+							<li>
+								<a class="title is-5"
+									>Advanced CSS and Sass: Flexbox, Grid, Animations and More!
+									<i class="bx bxs-chevron-right-square"></i
+								></a>
+								<p class="has-text-grey">Udemy &#8901; Jonas Schmedtmann</p>
+							</li>
+							<li>
+								<a class="title is-5"
+									>The Complete JavaScript Course 2020: From Zero to Expert!
+									<i class="bx bxs-chevron-right-square"></i
+								></a>
+								<p class="has-text-grey">Udemy &#8901; Jonas Schmedtmann</p>
+							</li>
+							<li>
+								<a class="title is-5"
+									>React For The Rest Of Us
+									<i class="bx bxs-chevron-right-square"></i
+								></a>
+								<p class="has-text-grey">Udemy &#8901; Brad Chiff</p>
+							</li>
+						</ul>
+					</div>
+					<div class="column is-half mb-3">
+						<h4 class="title is-3">Tools</h4>
+						<ul class="list skill-list">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>Javascript</li>
+							<li>React.js</li>
+							<li>Redux</li>
+							<li>Flutter</li>
+							<li>Redux</li>
+							<li>Wordpress</li>
+							<li>Bootstrap</li>
+							<li>Bulma</li>
+							<li>Adobe XD</li>
+						</ul>
+					</div>
+					<div class="column is-half mb-3">
+						<h4 class="title is-3">Education</h4>
+						<ul>
+							<li class="list">
+								<a href="" class="title is-5"
+									>University of Shahreza <i class="bx bx-atom"></i
+								></a>
+								<p>BA &#8901; Computer Engineering</p>
+								<p class="has-text-grey">2019 - 2023</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----------------------------------------   End of Section Resume   ---------------------------------------->
+		<!----------------------------------------   Start of Section Projects   ---------------------------------------->
+
+		<section
+			class="section section-projects background-image"
+			data-aos="fade-up"
+		>
+			<div class="layer">
+				<div class="container">
+					<h3 class="title is-2 has-text-white mb-3">Projects</h3>
+					<div class="slider mb-2">
+						<div class="slide">
+							<div
+								class="notification card has-background-white"
+								style="position: relative; overflow: hidden"
+							>
+								<figure class="image">
+									<img src="images/Movies.png" alt="" />
+								</figure>
+
+								<span class="title is-5">FilmNow</span>
+								<p class="project__desc">
+									An SSR rendered movie database website written in
+									Next.js/React.js. with dashboard, categories, etc.
+								</p>
+							</div>
+						</div>
+
+						<div class="slide">
+							<div class="notification card has-background-white">
+								<figure class="image">
+									<img src="images/project2.png" alt="" />
+								</figure>
+
+								<span class="title is-5">The Newspaper</span>
+								<p class="project__desc">
+									A online webapplication for browsing latest news using latest
+									tech. written using React.js
+								</p>
+							</div>
+						</div>
+
+						<div class="slide">
+							<div
+								class="notification card has-background-white"
+								style="position: relative; overflow: hidden"
+							>
+								<figure class="image">
+									<img src="images/browser1.png" alt="" />
+								</figure>
+
+								<span class="title is-5">Book Store</span>
+								<p class="project__desc">
+									A minimal bookstore website. designed for small bookstore
+									bussiness. responsive and mobile friendly.
+								</p>
+							</div>
+						</div>
+
+						<button class="button is-large card is-light arrow arrow--right">
+							<i class="bx bxs-right-arrow"></i>
+						</button>
+						<button class="button is-large card is-light arrow arrow--left">
+							<i class="bx bxs-left-arrow"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="hero is-fullheight section-contact">
+			<div class="hero-body">
+				<div class="container">
+					<div class="columns">
+						<div class="column is-half">
+							<h4 class="title is-2 circle" data-aos="zoom-in">
+								Let me know if you want to talk about a potential collaboration.
+								I am avaliable for any type of work!
+							</h4>
+							<div class="" data-aos="zoom-in">
+								<a
+									class="bx bxl-telegram contact__icon"
+									href="https://t.me/parsa4523"
+								></a>
+								<a
+									class="bx bxl-instagram contact__icon"
+									href="https://instagram.com/parsa_4523"
+								></a>
+								<a
+									class="bx bxl-linkedin-square contact__icon"
+									href="https://www.linkedin.com/in/parsa4523/"
+								></a>
+								<a
+									class="bx bxl-twitter contact__icon"
+									href="https://twitter.com/parsa4523"
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="columns is-gapless is-mobile">
+				<div class="column footer-line"></div>
+				<div class="column footer-line"></div>
+				<div class="column footer-line"></div>
+				<div class="column footer-line"></div>
+			</div>
+		</footer>
+		<script src="main.js"></script>
+	</body>
+</html>
