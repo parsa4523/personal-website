@@ -1,6 +1,6 @@
 # personal-website
 
-![Cover](/images/cover.png)
+![Cover](src/images/cover.png)
 A minimal website for showcasing my set of skills and projects
 
 Technologies used:
