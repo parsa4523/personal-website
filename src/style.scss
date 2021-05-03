@@ -186,12 +186,6 @@ i {
 	background-color: rgba($color: #fff, $alpha: 0.9);
 }
 
-.navbar {
-	@media (max-width: $tablet) {
-		//background-color: aqua;
-	}
-}
-
 .navbar-item {
 	&:hover {
 		background-color: inherit !important;
@@ -234,6 +228,7 @@ i {
 		height: 100%;
 	}
 }
+
 .slide--2 {
 	transform: translateX(100%);
 }
